@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **Social Media Clone**
 
-## Available Scripts
+#### Author: **Jozy Kinnaman**
+#### June 29, 2020
 
-In the project directory, you can run:
+### Description
 
-### `npm start`
+_This application serves as an introduction to React with create-react-app, components, JSX, and props while building a static site. This help queue displays a list of tickets and a header header ._
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Wireframe](src/img/help-queue-with-new-ticket-control.jpg)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Instructions for use:
 
-### `npm test`
+1. Open Terminal (macOS) or PowerShell (Windows)
+2. To download the project Directory to your desktop enter the following commands:
+```
+cd Desktop
+git clone https://github.com/JoseyKinnaman/help-queue.git
+cd social-media-clone
+```
+3. To view the downloaded files, open them in a text editor or IDE of your choice.
+* if you have VSCode for example, when your terminal is within the main project Directory you can open all of the files with the command:
+```
+code .
+```
+5. Download node and node package manager if they are not already installed on your device. You can find further instructions [here](https://www.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript-8d3b52cf-3755-481d-80c5-46f1d3a8ffeb/installing-node-js-14f2721a-61e0-44b3-af1f-73f17348c8f4).
+5. Run npm install in your terminal to download the necessary dependencies, plugins, and modules.
+```
+npm install
+```
+6. The command npm run start will build and open the compiled code in a browser of your choice using a local host.
+```
+npm run start
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Known Bugs
 
-### `npm run build`
+No bugs have been identified at the time of this update.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Support and Contact Information
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Please contact jozypants@gmail.com with questions. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Technologies Used
 
-### `npm run eject`
+* React
+* JavaScript
+* JSX
+* HTML
+* Git and GitHub
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Specs
+| Spec | Input | Output |
+| :------------- | :------------- | :------------- |
+| **User can view a static header** | User Input:"localhost:3000" | Output: “Header is displayed" |
+| **User can view a static ticket queue** | User Input:"localhost:3000" | Output: “Ticket queue is displayed" |
+| **User can view a static ticket** | User Input:"localhost:3000" | Output: “Ticket is displayed" |
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This software is licensed under the MIT license.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright © 2020 **_Jozy Kinnaman_**
