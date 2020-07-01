@@ -39,7 +39,7 @@ class TicketControl extends React.Component {
     return (
       <React.Fragment>
         {currentlyVisibleState}
-        <button onClick={this.handleClick}>{buttonText}</button>
+        <button class="btn btn-success" onClick={this.handleClick}>{buttonText}</button>
       </React.Fragment>
     );
   }
