@@ -1,11 +1,11 @@
 # **Help Queue**
 
-#### Author: **Jozy Kinnaman**
-#### June 29, 2020
+#### Author: **Jozy Kinnaman and Dan Merys**
+#### July, 5th 2020
 
 ### Description
 
-_This application serves as an introduction to React with create-react-app, components, JSX, and props while building a static site. This help queue displays a list of tickets and a header header ._
+_This application serves as an introduction to React with create-react-app, components, JSX, and props while building a dynamic site. This help queue displays a list of tickets and a header header ._
 
 ![Wireframe](src/img/help-queue-with-new-ticket-control.jpg)
 
@@ -44,6 +44,8 @@ Please contact jozypants@gmail.com with questions.
 ### Technologies Used
 
 * React
+* Redux
+* Jest
 * JavaScript
 * JSX
 * HTML
@@ -60,4 +62,4 @@ Please contact jozypants@gmail.com with questions.
 
 This software is licensed under the MIT license.
 
-Copyright © 2020 **_Jozy Kinnaman_**
+Copyright © 2020 **_Jozy Kinnaman & Dan Merys_**
